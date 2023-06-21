@@ -1,248 +1,440 @@
- <!DOCTYPE html>
-<html>
-<title>Isha Shaw</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<style>
-body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
-.w3-row-padding img {margin-bottom: 12px}
-/* Set the width of the sidebar to 120px */
-.w3-sidebar {width: 120px;background: #222;}
-/* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
-#main {margin-left: 120px}
-/* Remove margins from "page content" on small screens */
-@media only screen and (max-width: 600px) {#main {margin-left: 0}}
-</style>
-<body class="w3-black">
+<!doctype html>
+<!--[if IE 7 ]>    <html lang="en-gb" class="isie ie7 oldie no-js"> <![endif]-->
+<!--[if IE 8 ]>    <html lang="en-gb" class="isie ie8 oldie no-js"> <![endif]-->
+<!--[if IE 9 ]>    <html lang="en-gb" class="isie ie9 no-js"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!-->
+<html lang="en-gb" class="no-js">
+<!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <!--[if lt IE 9]> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <![endif]-->
+    <link rel="shortcut icon" type="image/png" href="images/cute.jpeg"/>
+    <title>Isha</title>
+    <meta name="description" content="">
+    <meta name="author" content="WebThemez">
+    <!--[if lt IE 9]>
+        <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <!--[if lte IE 8]>
+		<script type="text/javascript" src="http://explorercanvas.googlecode.com/svn/trunk/excanvas.js"></script>
+	<![endif]-->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/isotope.css" media="screen" />
+    <link rel="stylesheet" href="js/fancybox/jquery.fancybox.css" type="text/css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="css/da-slider.css" />
+    <!-- Owl Carousel Assets -->
+    <link href="js/owl-carousel/owl.carousel.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css" />
+    <!-- Font Awesome -->
+    <link href="font/css/font-awesome.min.css" rel="stylesheet">
+</head>
 
-<!-- Icon Bar (Sidebar - hidden on small screens) -->
-<nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
-  <!-- Avatar image in top left corner -->
-  
-  <a href="#" class="w3-bar-item w3-button w3-padding-large w3-black">
-    <i class="fa fa-home w3-xxlarge"></i>
-    <p>HOME</p>
-  </a>
-  <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
-    <i class="fa fa-user w3-xxlarge"></i>
-    <p>ABOUT</p>
-  </a>
-  <a href="#projects" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
-    <i class="fa fa-eye w3-xxlarge"></i>
-    <p>PROJECTS</p>
-  </a>
-  <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
-    <i class="fa fa-envelope w3-xxlarge"></i>
-    <p>CONTACT</p>
-  </a>
-</nav>
-
-<!-- Navbar on small screens (Hidden on medium and large screens) -->
-<div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
-  <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
-    <a href="#" class="w3-bar-item w3-button" style="width:25% !important">HOME</a>
-    <a href="#about" class="w3-bar-item w3-button" style="width:25% !important">ABOUT</a>
-    <a href="#projects" class="w3-bar-item w3-button" style="width:25% !important">PROJECTS</a>
-    <a href="#contact" class="w3-bar-item w3-button" style="width:25% !important">CONTACT</a>
-  </div>
-</div>
-
-<!-- Page Content -->
-<div class="w3-padding-large" id="main">
-  <!-- Header/Home -->
-  <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
-    <h1 class="w3-jumbo"><span class="w3-hide-small">I'm </span> Isha Shaw</h1>
-    <p></p>
-   
-  </header>
-
-  <!-- About Section -->
-  <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
-    <h2 class="w3-text-light-grey">About me</h2>
-    <hr style="width:200px" class="w3-opacity">
-    <p>I am currently a 4th year student at IIIT Kalyani, pursuing B.Tech in CSE. I'm an Open Source Contributor and currently learning Data Structures and Algorithms, while also learning, understanding and implementing the fundamentals of computer engineering. I'm skilled in data science and machine learning.
-    </p>
-    <h3 class="w3-padding-16 w3-text-light-grey">My Skills</h3>
-    <p class="w3-wide">C++</p>
-    <div class="w3-white">
-      <div class="w3-dark-grey" style="height:28px;width:70%"></div>
-    </div>
-    <p class="w3-wide">Python</p>
-    <div class="w3-white">
-      <div class="w3-dark-grey" style="height:28px;width:70%"></div>
-    </div>
-    
-   <p class="w3-wide">Github</p>
-    <div class="w3-white">
-      <div class="w3-dark-grey" style="height:28px;width:70%"></div>
-    </div>
-     <p class="w3-wide">Machine Learning</p>
-    <div class="w3-white">
-       <div class="w3-dark-grey" style="height:28px;width:70%"></div>
-    </div>
-    <p class="w3-wide">Deep Learning</p>
-    <div class="w3-white">
-      <div class="w3-dark-grey" style="height:28px;width:60%"></div>
-    </div>
-    <p class="w3-wide">HTML</p>
-    <div class="w3-white">
-      <div class="w3-dark-grey" style="height:28px;width:60%"></div>
-    </div>
-    <p class="w3-wide">SQL</p>
-    <div class="w3-white">
-      <div class="w3-dark-grey" style="height:28px;width:60%"></div>
-    </div>
-   <p class="w3-wide">Git</p>
-    <div class="w3-white">
-      <div class="w3-dark-grey" style="height:28px;width:50%"></div>
-    </div>
-    <p class="w3-wide">Open CV</p>
-    <div class="w3-white">
-      <div class="w3-dark-grey" style="height:28px;width:50%"></div>
-    </div><br>
-   <p class="w3-wide">Django</p>
-    <div class="w3-white">
-       <div class="w3-dark-grey" style="height:28px;width:70%"></div>
-    </div><br>
-
-    <p class="w3-wide">JAVA</p>
-    <div class="w3-white">
-      <div class="w3-dark-grey" style="height:28px;width:50%"></div>
-    </div><br>
-    <div>
-    <h3 class="w3-padding-16 w3-text-light-grey">My Resume</h3>
-    <a class="w3-button w3-light-grey w3-padding-large w3-section" href="https://drive.google.com/file/d/1W2ulB5V5OMyHGnQnj4tgcn1Bmcmq3zA7/view?usp=sharing">
-       CV/Resume
-    </a>  
-  <!-- End About Section -->
-  </div>
-  
-  <!-- Portfolio Section -->
-    <h2 class="w3-text-light-grey">MY Projects</h2>
-    <hr style="width:200px" class="w3-opacity">
-  
- <section id="projects" class="feature_part">
+<body>
+    <header class="header">
         <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-xl-8">
-                  <h3 class="work-title"><B> <u>RAKSHA </u></B><br>Virtual Self Defense Trainer <B>RAKSHA</B> which not only guides you with 11 basic self defense techniques but also grades you on how accurately you perform.</h3>
-                    <a href="https://github.com/akshitadixit/RAKSHA" >
-                    
-                    <center><img src = "Image/logo.PNG" height="200" width="400"></center>
-                    
-          </a>
+            <nav class="navbar navbar-inverse" role="navigation">
+                <div class="navbar-header">
+                    <button type="button" id="nav-toggle" class="navbar-toggle" data-toggle="collapse" data-target="#main-nav">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a href="#" class="navbar-brand scroll-top logo"><b>Hey👋, I'm Isha</b></a>
                 </div>
-            </div>
-            <div class="row justify-content-between align-items-center">
-                <div class="col-xl-8">
-                  <h3 class="work-title"><br><B><u>EnPride</u></B><br>A chrome extension that suggests you a stronger, and much more confident words and have speech-to-text facility to point out under-confident words in your speech so you get trained vocally, realtime.</h3>
-                    <a href="https://enpride.herokuapp.com/index.html" >
-                    
-                    <center><img src = "Image/logo2.png" height="200" width="400"></center>
-                    
-          </a>
-                </div>
-                    
-                    <div class="single_feature">
-                        <div class="single_feature_part">
-                            <div class="col-xl-8">
-                  <h3 class="work-title"><B><u>NOvid-20</u></B><br>An online doctor and a health assistant, whenever and wherever you need
-and solution to foretell the likelihood of being in vicinity of COVID-19 using ML and AI.</h3>
-                    <a href="https://v2dha.github.io/NOvid-20/" >
-                    
-                    <center><img src = "Image/Logo1.jpg" height="200" width="400"></center>
-                    
-          </a>
-                </div>
-                </div>
-
-                <div class="col-lg-3 col-sm-12">
-                    <div class="single_feature">
-                        <div class="col-xl-8">
-                  <h3 class="work-title"><B><u>MEDICARE</u></B><br>An online system for Prediction or detection of various medical ailments.<br> Deployed locally using Flask 2.0.</h3>
-                    <a href="https://medicare-prime.herokuapp.com/" >
-                    
-                    <center><img src = "Image/MEDICARE.gif" height="200" width="400"></center>
-                    
-          </a>
-                </div>
-                        </div>
-                    </div>
-                    <div class="single_feature">
-                        <div class="single_feature_part"><br>
-                            <div class="col-xl-8">
-                  <h3 class="work-title"><B><u> Super Resoution Imaging</u></B><br>Image Super Resolution Using Keras, Design and train the deep learning model to upscale and improve the quality of low resolution images.</h3>
-                    <a href="https://github.com/Isha307/Super-Resolution-Imaging" >
-                    
-                    <center><img src = "Image/Image1.png" height="200" width="400"></center>
-                    
-          </a>
-                </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-sm-12">
-                    <div class="single_feature">
-                        <div class="col-xl-8">
-                  <h3 class="work-title"><B><u>Sangeet</u></B><br>A Music Box made with Python Django Framework, Uses SQLite as DataBase.
-
-                   and also It has search Engine for searching Songs based on different keyword.</h3>
-                    <a href="#" >
-                    
-                    <center><img src = "Image/Music1.jpg" height="200" width="400"></center>
-                    
-          </a>
-                </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-sm-12">
-                    <div class="single_feature">
-                        <div class="col-xl-8">
-                  <h3 class="work-title"><B><u>More Projects</u></B><br>Coming Soon</h3>
-                    <a href="#" >
-                    
-                    <center><img src = "Image/logo3.jpg" height="200" width="400"></center>
-                    
-          </a>
-                </div>
-                    </div>
-                </div>
-            </div>
-            <br><br>
-            <a class="w3-button w3-light-grey w3-padding-large w3-section" href="https://github.com/Isha307">
-      MORE PROJECTS
-    </a> 
-        </div>
-
-    </section>
-    <!-- Grid for photos -->
+                <!--/.navbar-header-->
+                <div id="main-nav" class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav" id="mainNav">
+                        <li class="active"><a href="#home" class="scroll-link">Home</a></li>
+                        <li><a href="#aboutUs" class="scroll-link">About</a></li>
+                        <li><a href="#skills" class="scroll-link">Skills</a></li>
     
-  <!-- End Portfolio Section -->
+                        <li><a href="#portfolio" class="scroll-link">Projects</a></li>
+                        <li><a href="#contactUs" class="scroll-link">Contact</a></li>
+                    </ul>
+                </div>
+                <!--/.navbar-collapse-->
+            </nav>
+            <!--/.navbar-->
+        </div>
+        <!--/.container-->
+    </header>
+    <!--/.header-->
+    <div id="#top"></div>
+    <section id="home">
+        <div class="banner-container">
+            <img src="images/slide.png" alt="banner" />
+            <div class="container banner-content">
+                <div id="da-slider" class="da-slider">
+                    <div class="da-slide">
+                        <center><h2>Backend Developer</h2></center>
+                        <br><br>
+                        <div class="da-img"></div>
 
-  <!-- Contact Section -->
- <h2 class="w3-text-light-grey">Contact Me</h2>
-    <hr style="width:200px" class="w3-opacity">
-  <div id="contact">
-     <p><i class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Nawada, BIHAR</p>
-      <p><i class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Phone: +91 8102362861</p>
-      <p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> Email: isha372002@gmail.com</p>
-    </div><br>
+                        <p> "I am a Backend Developer | Crafting robust and scalable solutions for seamless user experiences"
+                    </div>
+                    <div class="da-slide">
+                        <center><<h2>Deep Learning Ethusiast</h2></center>
+            
+                        <div class="da-img"></div>
+                        <p>"Exploring the Depths: Showcasing My Passion for Deep Learning"</p>
+                    </div>
+                    
+                    <div class="da-slide">
+                        <center><h2>Machine Learning Developer</h2></center>
+                        <div class="da-img"></div>
+                        <p>"Machine Learning Developer: Advancing Artificial Intelligence through Innovative Solutions"</p>
+                    </div>
+				<!--  <nav class="da-arrows">
+                        <span class="da-arrows-prev"></span>
+                        <span class="da-arrows-next"></span>
+                    </nav> -->
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!--About-->
+    <section id="aboutUs" class="secPad">
+        <div class="container">
+            <div class="heading text-center">
+                <!-- Heading -->
+                <h2>About Me</h2> 
+                <p>I am Isha, an enthusiastic recent graduate with a Bachelor's degree in Computer Science and Engineering, I am eager to embark on a fulfilling career in the tech industry. My passion for technology has been the driving force behind my academic achievements and extracurricular pursuits.</p>
+                <p>I completed multiple internships and projects that have honed my technical skills and allowed me to gain hands-on experience in real-world settings. I have worked with languages like Python, and C++, as well as tools and technologies like SQL, Git, and Jupyter Notebook. Apart from that, I also have worked with backend systems, using Python frameworks. I am confident in my ability to apply this knowledge to solve complex problems and develop innovative solutions.
+                </p>
+                
+            </div>
+            <div class="row">
+                <!-- item -->
+                <div class="col-md-4 text-center tileBox">
+                   <div class="txtHead"> <i class="glyphicon glyphicon-record"></i>
+                    <h3>Backend <span class="id-color">Developer</span></h3></div>
+                </div>
+                <!-- end: -->
 
+                <!-- item -->
+                <div class="col-md-4 text-center tileBox">
+                    <div class="txtHead"><i class="glyphicon glyphicon-asterisk"></i>
+                    <h3>Deep <span class="id-color">Learning</span></h3></div>
+                </div>
+                <!-- end: -->
 
-  <!-- End Contact Section -->
-  </div>
-    <!-- Footer -->
+                <!-- item -->
+                <div class="col-md-4 text-center tileBox">
+                    <div class="txtHead"><i class="glyphicon glyphicon-headphones"></i>
+                    <h3>Machine <span class="id-color">Learning</span></h3></div>
+                </div>
+                <!-- end: -->
+            </div>
+        </div>
+    </section>
+
+    
+    <!--Skills-->
+    <section id="skills" class="secPad white">
+    	<div class="container">
+                    <center><h2><strong>Programming Skills</strong></h2></center>
+    
+                    <div class="row">
+                        <div class="col-md-2 skilltitle">Python</div>
+                        <div class="col-md-8">
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%;">
+                                    <span class="sr-only">90% Complete</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-2 skilltitle">CPP</div>
+                        <div class="col-md-8">
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%;">
+                                    <span class="sr-only">80% Complete</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-2 skilltitle">Machine Learning</div>
+                        <div class="col-md-8">
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%;">
+                                    <span class="sr-only">90% Complete</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-2 skilltitle">Deep Learning</div>
+                        <div class="col-md-8">
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%;">
+                                    <span class="sr-only">70% Complete</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div> 
+                    <div class="row">
+                        <div class="col-md-2 skilltitle">Django</div>
+                        <div class="col-md-8">
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%;">
+                                    <span class="sr-only">80% Complete</span>
+                             </div></div></div></div> 
+                    <div class="row">
+                        <div class="col-md-2 skilltitle">Flask</div>
+                        <div class="col-md-8">
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%;">
+                                    <span class="sr-only">80% Complete</span>
+                         
+                    </div></div></div></div>
+                    <div class="row">
+                        <div class="col-md-2 skilltitle">Git</div>
+                        <div class="col-md-8">
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%;">
+                                    <span class="sr-only">80% Complete</span>
+                         </div></div></div></div>
+                   <div class="row">
+                    <div class="col-md-2 skilltitle">SQL</div>
+                    <div class="col-md-8">
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%;">
+                                <span class="sr-only">80% Complete</span>
+                     </div></div></div></div>
+            </div>
+        </div>        
+    </section>
+                 
+
+    
+    <!--Quote-->
+    <section id="quote" class="bg-parlex">
+        <div class="parlex-back">
+            <div class="container secPad text-center">
+				<h2>A program is never less than 90% complete, and never more than 95% complete.</h2><h3>-Terry Baker, coder</h3>
+            </div>
+            <!--/.container-->
+        </div>
+    </section>
+
   
-  <center> <a href="https://twitter.com/ahsi307_"><img src="https://img.icons8.com/doodle/2x/twitter.png"></a>
-  <a href="https://www.linkedin.com/in/isha-shaw-24b4501a2/"><img src="https://img.icons8.com/doodle/2x/linkedin.png"></a>
-  <a href="https://github.com/Isha307"><img src="https://img.icons8.com/doodle/2x/github.png"></a>
- <a href="https://hashnode.com/@Ahsi"><img src="https://img.shields.io/badge/--black?style=for-the-badge&amp;logo=hashnode"></a></center>
- 
-<!-- END PAGE CONTENT -->
-</div>
+   <!--Portfolio-->
+    <section id="portfolio" class="page-section section appear clearfix secPad">
+        <div class="container">
 
+            <div class="heading text-center">
+                <!-- Heading -->
+                <h2>Projects</h2>
+                <p>“A sum can be put right: but only by going back till you find the error and working it afresh from that point, never by simply going on.”</p>
+            </div>
+
+            <div class="row">
+                <nav id="filter" class="col-md-12 text-center">
+                    <ul>
+                        <li><a href="#" class="current btn-theme btn-small" data-filter="*">All</a></li>
+                        <li><a href="#" class="btn-theme btn-small" data-filter=".ML">Machine Learning</a></li>
+                        <li><a href="#" class="btn-theme btn-small" data-filter=".DL">Deep Learning</a></li>
+                        <li><a href="#" class="btn-theme btn-small" data-filter=".Flask">Flask</a></li>
+                        <li><a href="#" class="btn-theme btn-small" data-filter=".Django">Django</a></li>
+                        <li><a href="#" class="btn-theme btn-small" data-filter=".Backend">Backend</a></li>
+                    </ul>
+                </nav>
+                <div class="col-md-12">
+                    <div class="row">
+                        <div class="portfolio-items isotopeWrapper clearfix" id="3">
+
+                        	 <article class="col-sm-4 isotopeItem ML DL Flask">
+                                
+                                <div class="portfolio-item">
+                                    <img src="images/logo.png" alt="" />
+                                    <div class="portfolio-desc align-center">
+                                        <div class="folio-info">
+                                            <a href="images/logo.png" class="fancybox">
+                                                <h5>RAKSHA</h5>
+                                                <i class="fa fa-arrows-alt fa-2x"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </article>
+
+                             <article class="col-sm-4 isotopeItem DL">
+                                <div class="portfolio-item">
+                                    <img src="images/Image1.png" alt="" />
+                                    <div class="portfolio-desc align-center">
+                                        <div class="folio-info">
+                                            <a href="images/Image1.png" class="fancybox">
+                                                <h5>Super Resoution Imaging</h5>
+                                                <i class="fa fa-arrows-alt fa-2x"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </article>
+
+                             <article class="col-sm-4 isotopeItem ML Flask">
+                                <div class="portfolio-item">
+                                    <img src="images/Logo1.jpg" alt="" />
+                                    <div class="portfolio-desc align-center">
+                                        <div class="folio-info">
+                                            <a href="images/Logo1.jpg" class="fancybox">
+                                                <h5>NOvid-20</h5>
+                                                <i class="fa fa-arrows-alt fa-2x"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </article>
+
+                             <article class="col-sm-4 isotopeItem Backend">
+                                <div class="portfolio-item">
+                                    <img src="images/logo2.png" alt="" />
+                                    <div class="portfolio-desc align-center">
+                                        <div class="folio-info">
+                                            <a href="images/logo2.png" class="fancybox">
+                                                <h5>EnPride</h5>
+                                                <i class="fa fa-arrows-alt fa-2x"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </article>
+
+                            <article class="col-sm-4 isotopeItem ML DL Flask">
+                                <div class="portfolio-item">
+                                    <img src="images/MEDICARE.gif" alt="" />
+                                    <div class="portfolio-desc align-center">
+                                        <div class="folio-info">
+                                            <a href="images/MEDICARE.gif" class="fancybox">
+                                                <h5>MEDICARE</h5>
+                                                <i class="fa fa-arrows-alt fa-2x"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </article>
+
+                            <article class="col-sm-4 isotopeItem Django Backend">
+                                <div class="portfolio-item">
+                                    <img src="images/Music1.jpg" alt="" />
+                                    <div class="portfolio-desc align-center">
+                                        <div class="folio-info">
+                                            <a href="images/Music1.jpg" class="fancybox">
+                                                <h5>SANGEET</h5>
+                                                <i class="fa fa-arrows-alt fa-2x"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </article>
+
+                            <article class="col-sm-4 isotopeItem Backend">
+                                <div class="portfolio-item">
+                                    <img src="images/logo3.jpg" alt="" />
+                                    <div class="portfolio-desc align-center">
+                                        <div class="folio-info">
+                                            <a href="images/logo3.jpg" class="fancybox">
+                                                <h5>Coming Soon</h5>
+                                                <i class="fa fa-arrows-alt fa-2x"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </article>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+	<!--Contact -->
+    <section id="contactUs" class="page-section secPad">
+        <div class="container">
+
+            <div class="row">
+                <div class="heading text-center">
+                    <!-- Heading -->
+                    <h2>Contact Me!!</h2>
+                    <p>Hey there!! Thank you so much for taking the time to visit my profile. </p>
+                </div>
+            </div>
+
+            <div class="row mrgn30">
+
+                <form method="post" action="" id="contactfrm" role="form">
+
+                    <div class="col-sm-4">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" class="form-control" name="name" id="name" placeholder="Enter name" title="Please enter your name (at least 2 characters)">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" class="form-control" name="email" id="email" placeholder="Enter email" title="Please enter a valid email address">
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="form-group">
+                            <label for="comments">Comments</label>
+                            <textarea name="comment" class="form-control" id="comments" cols="3" rows="5" placeholder="Enter your message…" title="Please enter your message (at least 10 characters)"></textarea>
+                        </div>
+                        <button name="submit" type="submit" class="btn btn-lg btn-primary" id="submit">Submit</button>
+                        <div class="result"></div>
+                    </div>
+                </form>
+                <div class="col-sm-4">
+                    <h4>Address:</h4>
+                    <p>
+                        161/07 New Area
+                        <br>
+                        Nawada, Bihar, India
+                        <br>
+                    </p>
+                    <h4>Phone:</h4>
+                    <p>
+                        +918102362861<br>
+                    </p>
+                    <h4>Email:</h4>
+                    <p>
+                        isha372002@gmail.com<br>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!--/.container-->
+    </section>
+    <footer>
+        <div class="container">
+            <div class="social text-center">
+                <a href="https://twitter.com/ahsi307_"><i class="fa fa-twitter"></i></a>
+                <a href="https://ishashaw.bio.link/"><i class="fa fa-link"></i></a>
+                <a href="https://www.linkedin.com/in/isha-shaw-24b4501a2/"><i class="fa fa-linkedin"></i></a>
+                <a href="https://github.com/Isha307"><i class="fa fa-github"></i></a>
+                <a href="https://www.instagram.com/_isha.shaw_/"><i class="fa fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/riti1302/"><i class="fa fa-spotify"></i></a>
+                
+            </div>
+
+            <div class="clear"></div>
+            <!--CLEAR FLOATS-->
+        </div>
+    </footer>
+    <!--/.page-section-->
+    
+    <a href="#top" class="topHome"><i class="fa fa-chevron-up fa-2x"></i></a>
+
+    <!--[if lte IE 8]><script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script><![endif]-->
+    <script src="js/modernizr-latest.js"></script>
+    <script src="js/jquery-1.8.2.min.js" type="text/javascript"></script>
+    <script src="js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="js/jquery.isotope.min.js" type="text/javascript"></script>
+    <script src="js/fancybox/jquery.fancybox.pack.js" type="text/javascript"></script>
+    <script src="js/jquery.nav.js" type="text/javascript"></script>
+    <script src="js/jquery.cslider.js" type="text/javascript"></script>
+    <script src="js/custom.js" type="text/javascript"></script>
+    <script src="js/owl-carousel/owl.carousel.js"></script>
 </body>
 </html>
